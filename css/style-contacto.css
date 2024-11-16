@@ -1,0 +1,93 @@
+/* Encabezado y navegación */
+header {
+    background-color: red; /* Color de respaldo */
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+/*Contacto*/
+.content {
+    background:wheat;
+    position: relative;
+    z-index: 2;
+    color: #070707;
+    text-align: left;
+    padding: 20px;
+    max-width: 550px;
+    border-radius: 5px;
+	border:1px solid red;
+    font-family: "Georgias", sans-serif;
+    margin: 20px auto;
+
+ 
+
+}
+
+
+.formulario {
+   display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+	padding: 20px;
+    
+}
+
+.formulario label {
+    text-align: left;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border:1px solid #0A0A2A;
+	font-size: 16px;
+	font-family: "Outfit", sans-serif;
+}
+
+.formulario button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.formulario button:hover {
+    background-color: #45a049;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background:red;
+    color: #fff;
+    font-family: "Outfit", sans-serif
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer nav ul li {
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
